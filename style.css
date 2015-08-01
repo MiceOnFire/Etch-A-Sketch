@@ -1,5 +1,37 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+#banner{
+	display: inline-block;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+
+}
+
+#banner p{
+	display: inline-block;
+	position: relative;
+	font-family: sans-serif;
+
+}
+
+
+#container{
+	width: 800px;
+	height: 8000px;
+	margin: 25px auto;
+}
+
 .grid{
-	height: 25px;
-	width: 25px;
-	background-color: #CCFFFF;
+	margin: 0;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px dotted rgba(0, 0, 0, .05);
+	float: left;
+	background-color: #fff;
 }
